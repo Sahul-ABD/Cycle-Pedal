@@ -1,0 +1,197 @@
+:root {
+  --background-clr: #f1f0e8;
+  --primary-clr1: #f8efba;
+  --primary-clr2: #c9d59c;
+  --primary-clr3: #97bc84;
+  --secondry-clr1: #62a373;
+  --secondry-clr2: #1c8967;
+  --accent-clr1: #006f5f;
+}
+body {
+  margin: 30px;
+  background-color: var(--background-clr);
+}
+/* Header */
+#Head-Container {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* Header- to - list */
+header li {
+  display: inline-block;
+  margin: 55px;
+  font-size: 20px;
+}
+/* List-Hover */
+header li:hover {
+  color: lightcoral;
+}
+/* image */
+header img {
+  width: 300px;
+  margin-left: 100px;
+}
+/* Sub-Heading */
+header p {
+  position: relative;
+  left: 120px;
+  font-size: 17px;
+}
+/* Header-Ends */
+/* Main */
+main h2 {
+  text-decoration: underline;
+  font-size: 30px;
+}
+/* Paragraph - Text */
+h3 {
+  text-transform: uppercase;
+}
+.section-1 {
+  font-size: 20px;
+}
+.section-2 {
+  font-size: 20px;
+}
+/* Section-1
+Zero-Column */
+.cols-0 {
+  display: flex;
+}
+.row-1 {
+  text-align: left;
+  margin-right: 250px;
+}
+.row-2 {
+  text-align: justify;
+  position: relative;
+  right: 245px;
+}
+/* Section-1
+First-Column */
+.cols-1 {
+  display: flex;
+}
+.row-3 {
+  text-align: left;
+  margin-right: 100px;
+}
+.row-4 {
+  text-align: justify;
+  position: relative;
+  right: 70px;
+}
+/* Section-1
+Second-Column */
+.cols-2 {
+  display: flex;
+}
+.row-5 {
+  text-align: left;
+}
+/* Section-1 Ends */
+/* Section-2
+Third-Column */
+.cols-3 {
+  display: flex;
+  margin: 10px;
+}
+.row-6 {
+  text-align: left;
+}
+.row-7 {
+  text-align: justify;
+  position: relative;
+  left: 240px;
+}
+/* Section-2
+Fourth-Column */
+.cols-4 {
+  display: flex;
+}
+.row-8 {
+  text-align: left;
+  margin-right: 30px;
+}
+.row-9 {
+  text-align: justify;
+  position: relative;
+  right: 10px;
+}
+/* Section-2
+Fifth-Column */
+.cols-5 {
+  display: flex;
+}
+.row-10 {
+  text-align: left;
+}
+.row-11 {
+  text-align: justify;
+  position: relative;
+  left: 45px;
+}
+/* Section-2 Ends */
+/* Main-Ends */
+/* Footer */
+/* Footer - img */
+.footer-logo img {
+  width: 150px;
+  margin-left: 45%;
+}
+/* Footer-Para */
+footer p {
+  font-size: 19px;
+  text-align: center;
+}
+/* Anchor */
+a {
+  text-decoration: none;
+}
+.quick-links li {
+  list-style-type: none;
+}
+.quick-links {
+  display: flex;
+  justify-content: space-around;
+}
+.quick-links img {
+  width: 150px;
+}
+/* Footer-image  */
+#Boy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Women {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Viper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Girls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 15px;
+}
+#Kids {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 15px;
+}
+/* Address */
+address {
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+/* Address Ends */
+/* Footer-Ends */
