@@ -7,6 +7,7 @@
   --secondry-clr2: #1c8967;
   --accent-clr1: #006f5f;
 }
+/* main-body */
 body {
   margin: 30px;
   background-color: var(--background-clr);
@@ -56,7 +57,8 @@ h3 {
   text-transform: uppercase;
   margin-bottom: 25px;
 }
-/* Footer */
+/* margin-ends */
+/* footer */
 footer {
   margin-bottom: 30px;
 }
@@ -68,12 +70,12 @@ footer {
 .footer-logo img {
   width: 150px;
 }
-/* Footer-Para */
+/* footer-Para */
 footer p {
   margin: 0px;
   font-size: 19px;
 }
-/* Anchor */
+/* anchor */
 a {
   text-decoration: none;
 }
@@ -87,40 +89,40 @@ a {
 .quick-links img {
   width: 150px;
 }
-/* Footer-image  */
-#Boy {
+/* footer-image  */
+#boy {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#Women {
+#women {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#Viper {
+#viper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#Girls {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 15px;
-}
-#Kids {
+#girls {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 15px;
 }
-/* Address */
+#kids {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 15px;
+}
+/* address */
 address {
   text-align: center;
   font-size: 25px;
   font-style: italic;
   font-family: "Times New Roman", Times, serif;
 }
-/* Address Ends */
-/* Footer-Ends */
+/* address ends */
+/* footer-ends */
